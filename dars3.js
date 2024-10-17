@@ -244,10 +244,9 @@
 //     }
 // }
 
-// // Misol uchun
-// let unit = 2; // Kilometr
-// let length = 5; // 5 kilometr
-// console.log(convertLength(unit, length)); // "5000" natijasi chiqadi
+// let unit = +prompt('kilometr') 
+// let length = +prompt('kilometr')
+// console.log(convertLength(unit, length)); 
 
 
 // ----------------------------------------------------------------masala7
@@ -270,9 +269,9 @@
 // }
 
 // // Misol uchun
-// let unit = 3; // Gramm
-// let weight = 1500; // 1500 gramm
-// console.log(convertWeight(unit, weight)); // "1.5" natijasi chiqadi
+// let unit = +prompt('1 dan 5 gacha raqam kiriting')
+// let weight = +prompt('ogirlik');
+// console.log(convertWeight(unit, weight));
 
 
 // ----------------------------------------------------------------masala8
@@ -287,10 +286,9 @@
 //     return `Berilgan sana: ${D} ${M} oyida.`;
 // }
 
-// // Misol uchun
-// let D = 15; // Kun
-// let M = 5; // Oy
-// console.log(getDate(D, M)); // "Berilgan sana: 15 5 oyida."
+// let D = +prompt('kun')
+// let M = +prompt('oy')
+// console.log(getDate(D, M)); 
 
 
 // ----------------------------------------------------------------masala9
@@ -311,10 +309,9 @@
 //     }
 // }
 
-// // Misol uchun
-// let D = 28; // Kun
-// let M = 2; // Oy
-// console.log(getNextDate(D, M)); // "Keyingi sana: 1 3 oyida."
+// let D = +prompt('kun')
+// let M = +prompt('oy')
+// console.log(getNextDate(D, M)); 
 
 
 // ----------------------------------------------------------------masala10
@@ -365,10 +362,9 @@
 //     return `Robot holati: x = ${x}, y = ${y}, yo'nalish = ${direction}`;
 // }
 
-// // Misol uchun
-// let direction = 's'; // Shimol
-// let command = 1; // Chapga burilish
-// console.log(robotPosition(direction, command)); // "Robot holati: x = 0, y = 1, yo'nalish = g"
+// let direction = +prompt('s, j, q, g');
+// let command = +prompt('burilish')
+// console.log(robotPosition(direction, command));
 
 
 // ----------------------------------------------------------------masala11
@@ -396,10 +392,9 @@
 //     return `Lakat holati: ${directions[currentDirectionIndex]}`;
 // }
 
-// // Misol uchun
-// let initialDirection = 's'; // Boshlang'ich holat
-// let commands = [1, 0]; // Chapga burilish, O'ngga burilish
-// console.log(getLocatorState(initialDirection, commands)); // "Lakat holati: J"
+let initialDirection = 's'; // Boshlang'ich holat
+let commands = [1, 0]; // Chapga burilish, O'ngga burilish
+console.log(getLocatorState(initialDirection, commands)); // "Lakat holati: J"
 
 
 // ----------------------------------------------------------------masala12

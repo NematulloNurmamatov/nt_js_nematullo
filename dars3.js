@@ -392,9 +392,9 @@
 //     return `Lakat holati: ${directions[currentDirectionIndex]}`;
 // }
 
-let initialDirection = 's'; // Boshlang'ich holat
-let commands = [1, 0]; // Chapga burilish, O'ngga burilish
-console.log(getLocatorState(initialDirection, commands)); // "Lakat holati: J"
+// let initialDirection = 's'; // Boshlang'ich holat
+// let commands = [1, 0]; // Chapga burilish, O'ngga burilish
+// console.log(getLocatorState(initialDirection, commands)); // "Lakat holati: J"
 
 
 // ----------------------------------------------------------------masala12

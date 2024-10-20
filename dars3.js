@@ -283,7 +283,7 @@
 //         return "Noto'g'ri sanalar.";
 //     }
 
-//     return `Berilgan sana: ${D} ${M} oyida.`;
+//     return `Berilgan sana: ${D} - kun  ${M} oyida.`;
 // }
 
 // let D = +prompt('kun')

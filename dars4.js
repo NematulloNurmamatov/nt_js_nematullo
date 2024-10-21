@@ -10,7 +10,7 @@ let samalyot = dollar * 500;
 let mehmonxona = dollar * 250;
 let sayr = euro * 120;
 
-let jami = samolyot + mehmonxona + sayr;
+let jami = samalyot + mehmonxona + sayr;
 
 if (alisher >= jami) {
     console.log('Oq yol, Alisher!');

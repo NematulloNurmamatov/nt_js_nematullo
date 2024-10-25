@@ -156,14 +156,14 @@
 
 //------------------------------------------------------------ masala6
 
-// function printCandyPrices(pricePerKg) {
+// function Candy(Kg) {
 //     for (let i = 12; i <= 20; i += 2) {
-//         console.log((i/10) + " kg konfet narxi:", (i / 10) *  pricePerKg + " so'm");
+//         console.log((i/10) + " kg konfet narxi:", (i / 10) * Kg + " so'm");
 //     }
 // }
 
 // // Misol: 1 kg konfet narxi = 1000 so'm
-// printCandyPrices(1000);  
+// Candy(1000);  
 
 //------------------------------------------------------------ masala7
 
